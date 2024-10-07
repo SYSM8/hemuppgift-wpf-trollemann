@@ -25,6 +25,14 @@
             Height="225"
             Width="400"
             Click="btnStackPanel_Click"/>
+        
+        <Button
+            x:Name="btnWrapPanel"
+            Content="WrapPanel"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Height="225"
+            Width="400"/>
 
     </Grid>
 </Window>
