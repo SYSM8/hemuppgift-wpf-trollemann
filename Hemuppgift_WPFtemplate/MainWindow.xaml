@@ -8,5 +8,13 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <Button
+            x:Name="btnGrid"
+            Content="Grid"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Height="225"
+            Width="400" Click="btnGrid_Click"/>
+
     </Grid>
 </Window>

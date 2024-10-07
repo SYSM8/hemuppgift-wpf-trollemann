@@ -12,5 +12,11 @@ namespace Hemuppgift_WPFtemplate
         {
             InitializeComponent();
         }
+
+        private void btnGrid_Click(object sender, RoutedEventArgs e)
+        {
+            GridWindow grid = new GridWindow();
+            grid.Show();
+        }
     }
 }
