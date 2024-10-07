@@ -15,23 +15,23 @@ using System.Windows.Shapes;
 namespace Hemuppgift_WPFtemplate
 {
     /// <summary>
-    /// Interaction logic for StackPanel.xaml
+    /// Interaction logic for WrapPanel.xaml
     /// </summary>
-    public partial class StackPanel : Window
+    public partial class WrapPanel : Window
     {
-        public StackPanel()
+        public WrapPanel()
         {
             InitializeComponent();
         }
 
         private void radioBtnHorizontal_Checked(object sender, RoutedEventArgs e)
         {
-            stackPanel.Orientation = Orientation.Horizontal;
+            wrapPanel.Orientation = Orientation.Horizontal;
         }
 
         private void radioBtnVertical_Checked(object sender, RoutedEventArgs e)
         {
-            stackPanel.Orientation= Orientation.Vertical;
+            wrapPanel.Orientation = Orientation.Vertical;
         }
     }
 }
