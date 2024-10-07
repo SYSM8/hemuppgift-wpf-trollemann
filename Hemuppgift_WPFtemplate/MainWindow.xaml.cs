@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Controls;
 
 namespace Hemuppgift_WPFtemplate
 {
@@ -29,6 +30,12 @@ namespace Hemuppgift_WPFtemplate
         {
             WrapPanel wrapPanel = new WrapPanel();
             wrapPanel.Show();
+        }
+
+        private void btnDockPanel_Click(object sender, RoutedEventArgs e)
+        {
+            DockPanel dockPanel = new DockPanel();
+            dockPanel.Show();
         }
     }
 }
