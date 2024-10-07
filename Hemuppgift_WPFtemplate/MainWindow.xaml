@@ -14,7 +14,17 @@
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Height="225"
-            Width="400" Click="btnGrid_Click"/>
+            Width="400"
+            Click="btnGrid_Click"/>
+        
+        <Button
+            x:Name="btnStackPanel"
+            Content="StackPanel"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Height="225"
+            Width="400"
+            Click="btnStackPanel_Click"/>
 
     </Grid>
 </Window>

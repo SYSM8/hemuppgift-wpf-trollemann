@@ -6,6 +6,7 @@
             xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
             mc:Ignorable="d"
             Title="GridWindow" Height="450" Width="800">
+    
     <DockPanel>
         
         <StackPanel
@@ -66,10 +67,10 @@
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="200"/>
-                <ColumnDefinition Width="200"/>
-                <ColumnDefinition Width="200"/>
-                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
         </Grid>
